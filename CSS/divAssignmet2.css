@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card1{
+    height: 900px;
+    width: 1300px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.card2{
+    height: 870px;
+    width: 1272px;
+    padding-bottom: 400px;
+    background-color: white;
+    border: 7px solid gray;
+    left: 10px;
+    top: 20px;
+    position: absolute
+}
+.card3{
+    position: absolute;
+    height: 300px;
+    width: 1260px;
+    background-color: black;
+    top: 80px;
+}
+.subcard1{
+    position: absolute;
+    height: 250px;
+    width: 1160px;
+    background-color: white;
+    top: 25px;
+    left: 50px;
+}
+.formCard{
+    position: absolute;
+    height: 240px;
+    width: 450px;
+    background-color: orange;
+    top: 5px;
+    left: 705px;
+}
+.Ndiv{
+    position: absolute;
+    height: 30px;
+    width: 300px;
+    background-color: white;
+    top: 30px;
+    left: 70px;
+}
+.ndiv{
+    position: absolute;
+    height: 30px;
+    width: 300px;
+    background-color: white;
+    top: 90px;
+    left: 70px;
+}
+.email{
+    position: absolute;
+    height: 40px;
+    width: 300px;
+    background-color: white;
+    top: 150px;
+    left: 70px;
+}
+.submit{
+    padding-top: 5px;
+    height: 30px;
+    width: 65px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top:200px;
+    left: 70px;
+}
+.subcard2{
+    position: absolute;
+    height: 200px;
+    width: 380px;
+    background-color:purple;
+    top: 400px;
+    left: 20px;
+}
+.smallb1{
+    position: absolute;
+    height: 90px;
+    width: 80px;
+    background-color: plum;
+    border: 1px solid green;
+    top: 80px;
+    left: 250px;
+}
+.subcard3{
+    position: absolute;
+    height: 200px;
+    width: 380px;
+    background-color:purple;
+    top: 400px;
+    left: 440px;
+}
+
+.smallb2{
+    position: absolute;
+    height: 90px;
+    width: 80px;
+    background-color: plum;
+    border: 1px solid green;
+    top: 80px;
+    left: 250px;
+}
+.subcard4{
+    position: absolute;
+    height: 200px;
+    width: 380px;
+    background-color:purple;
+    top: 400px;
+    left: 860px;
+}
+.smallb3{
+    position: absolute;
+    height: 90px;
+    width: 80px;
+    background-color: plum;
+    border: 1px solid green;
+    top: 80px;
+    left: 250px;
+}
+.footer{
+    position: absolute;
+    height: 100px;
+    width: 1260px;
+    background-color: gray;
+    top: 760px;
+    border: 1px solid gainsboro;
+}
+.fdiv{
+    position: absolute;
+    height: 30px;
+    width: 300px;
+    background-color: white;
+    top: 50px;
+    left: 800px;
+}
+.fsubmit{
+    padding-top: 5px;
+    height: 30px;
+    width: 65px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top:50px;
+    left: 1050px;
+}

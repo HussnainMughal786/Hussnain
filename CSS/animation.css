@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .box{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    animation-name: colorchange;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+/* keyframe is used to animate the div  */
+/* @keyframes colorchange{
+    0%{
+        background-color: blue;
+    }
+    20%{
+        background-color: blueviolet;
+    }
+    40%{
+        background-color: brown;
+    }
+    60%{
+        background-color: yellowgreen;
+    }
+    80%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: violet;
+    }
+}
+.boxes{
+    height: 1000px;
+    width: 1000px;
+    background-color: springgreen;
+    position: relative;
+}
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    position: absolute;
+    animation-name: Movebox;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes Movebox{
+    0%{
+        top:0;
+        left: 0px;
+    }
+    20%{
+        top: 0px;
+        left: 200px;
+    }
+    40%{
+        top: 0px;
+        left: 300px;
+    }
+    60%{
+        top: 0px;
+        left: 500px;
+    }
+    80%{
+        top: 0px;
+        left: 600px;
+    }
+    100%{
+        top: 0px;
+        left: 700px;
+    }
+} */
+/* .card{position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.card1{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    animation-name: move;
+    animation-duration: 5s;   
+    animation-iteration-count: infinite;
+}
+@keyframes move{
+    0%{
+        top:0;
+        left:0;
+    }
+    25%{
+        top:0;
+        right:0;
+    }
+    50%{
+        bottom:0;
+        right:0;
+    }
+    75%{
+        bottom:0;
+        right:1000;
+    }
+} */
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+    
+
+}
+.box1{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    border: 1px solid saddlebrown;
+
+}
+.image{
+    height: 50px;
+    width: 60px;
+}
+
+.box2{ 
+    
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    border: 1px solid saddlebrown;
+    
+}

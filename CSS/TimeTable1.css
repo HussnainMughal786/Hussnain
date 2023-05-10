@@ -1,0 +1,9 @@
+.timeTable{
+    height: 500;
+    width: 500;
+   background-color:  darkcyan;
+    margin: 30 30 30 30 ;
+}
+th,td{
+    text-align: center;
+}

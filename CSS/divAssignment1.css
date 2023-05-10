@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card1{
+    height: 800px;
+    width: 1200px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.card2{
+    height: 770px;
+    width: 1172px;
+    padding-bottom: 400px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    left: 10px;
+    top: 20px;
+    position: absolute;
+}
+.card3{
+    height: 740px;
+    width: 1120px;
+    background-color: blue;
+    border: 10px solid gray;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.card4{
+    height: 500px;
+    width: 1000px;
+    background-color: gray;
+    position: absolute;
+    top: 210px;
+    left :50px;
+}
+.card5{
+    position: relative;
+    height: 220px;
+    width: 980px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+.bar1{
+    position: absolute;
+    height: 40px;
+    width: 300px;
+    background-color: grey;
+    top: 40px;
+    left: 60px;
+    border: .5px transparent;
+    border-radius: 10px;
+    
+}
+.bar2{
+    position: absolute;
+    height: 40px;
+    width: 300px;
+    background-color: grey;
+    top: 40px;
+    left: 620px;
+    border: .5px transparent;
+    border-radius: 10px;
+}
+.bar3{
+    position: absolute;
+    height: 40px;
+    width: 150px;
+    background-color: grey;
+    top: 80px;
+    left: 420px;
+    border: .5px transparent;
+    border-radius: 10px;
+}
+.bar4{
+    position: absolute;
+    height: 40px;
+    width: 600px;
+    background-color: red;
+    top: 160px;
+    left: 195px;
+    border: .5px solid;
+    border-radius: 10px;
+}
+.card6{
+    position: absolute;
+    height: 255px;
+    width: 982px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: lightblue;
+}
+.subcard1{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    background-color: antiquewhite;
+    top: 30px;
+    left: 60px;
+}
+.bar5{
+    position: absolute;
+    height: 30px;
+    width: 140px;
+    background-color: grey;
+    top: 10px;
+    left: 20px;
+    border: .5px transparent;
+    border-radius: 5px;
+}
+.bar6{
+    position: absolute;
+    height: 30px;
+    width: 140px;
+    background-color: grey;
+    top: 10px;
+    left: 240px;
+    border: .5px transparent;
+    border-radius: 5px;
+}
+.bar7{
+    position: absolute;
+    height: 30px;
+    width: 250px;
+    background-color: blue;
+    top: 165px;
+    left: 80px;
+    border: .5px solid gray;
+    border-radius: 5px;
+}
+.subcard2{
+    position: absolute;
+    height: 240px;
+    width: 450px;
+    background-color: antiquewhite;
+    top: 10px;
+    left: 510px;
+}
+.bar8{
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    background-color: blue;
+    top: 20px;
+    left: 5px;
+    border: .5px solid black;
+    border-radius: 5px;
+}
+.bar9{
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    background-color: gray;
+    top: 20px;
+    left: 325px;
+    border: .5px solid green;
+    border-radius: 5px;
+}
+.bar10{
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    background-color: gray;
+    top: 110px;
+    left: 5px;
+    border: .5px solid green;
+    border-radius: 5px;
+}
+.bar11{
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    background-color: gray;
+    top: 110px;
+    left: 325px;
+    border: .5px solid green;
+    border-radius: 5px;
+}
+.bar12{
+
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    background-color: blue;
+    top: 203px;
+    left: 5px;
+    border: .5px solid black;
+    border-radius: 5px;
+}
+.bar13{
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    background-color: gray;
+    top: 203px;
+    left: 325px;
+    border: .5px solid green;
+    border-radius: 5px;
+}

@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+/* height cannot be in percent while widdth can be in percentage */
+/* hv used for height  */
+.box{
+    width:20%;
+    height: 200px;
+    background-color: yellow;
+    /* it will show div in center  */
+    /* margin: 0 auto; */
+    /* margin will move the div  */
+    margin: 10px 20px 30px 40px;
+    /* padding used to move data inside the div  */
+    padding:10px 20px 30px 40px ;
+    border: 2px solid rebeccapurple;
+    /* border-radius: 30%; */
+    /* border different coloring */
+    border-top-color: blue;
+}
+.box2{
+    width:200px;
+    height: 200px;
+    background-color: yellowgreen;
+}
+.background{
+    height: 50vh;
+    width: 80%;
+    background-image: url(../Assets/image.JPG);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin :20px auto;
+
+}
+.card{
+    width:500px;
+    height:80vh;
+    background-color: brown;
+    margin: 0 auto;
+    border:30px solid darkred;
+    border-radius: 10px;
+    
+}.card-image{
+    height:40vh;
+    background-image: url("../Assets/kentucky\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.card-body{
+    height: 30vh;
+}
+.heading{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.btn{
+    background-color: red;
+    color: aliceblue;
+    border: transparent;
+    border-radius: 10px;
+    padding: 10px 20px;
+    float: right;
+}

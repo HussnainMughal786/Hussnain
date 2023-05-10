@@ -1,0 +1,676 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ .pny{
+    width: 100%;
+    height: auto;
+} 
+.navbar{
+    height: 10vh;
+    width: 100%;
+    background-color: #213033;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 70px;
+    flex-wrap: wrap;
+    
+}
+.num{
+    font-size: 30px;
+    color: white;
+}
+.email{
+    font-size: 30px;
+    color: white;
+}
+.box1{
+    font-size: 24px;
+    font-weight: 600;
+    width:400px;
+    height: 40px;
+    background-color: yellow;
+    border: 1px solid orangered;
+    padding: 5px 30px;
+    border-radius: 10px  ;
+}
+.list ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* font-size: 10px; */
+}
+.list ul li{
+    /* display: flex;
+    flex-wrap: wrap; */
+    color: white;
+    list-style: none;
+    font-size: 30px;
+}
+.signin{
+    padding: 15px 40px;
+    color: white;
+    background-color: red;
+    border: 1px transparent;
+    border-radius: 5px;
+    font-size: 24px;
+}
+.login{
+    padding: 15px 40px;
+    background-color:azure;
+    border: 1px transparent;
+    border-radius: 5px;
+    font-size: 24px;
+}
+.icon1{
+    color:rgb(59, 59, 240);
+    font-size: 25px;
+}
+.icon2{
+    color:rgb(59, 59, 240);
+    font-size: 25px;
+}
+.logobar{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+    gap: 70px;
+}
+.pnylogo{
+    height: 180px;
+    width: 200px;
+    background-color: white;
+    background-image: url(../Assets/pnylogo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    flex-shrink: 3;
+    /* flex-basis: 200px; */
+    padding-right: 20px;
+}
+.c{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    height: 70px;
+    width: 350px;
+    background-color: #2ECAF7;
+}
+.categories{
+    padding: 20px;
+    height: 50px;
+    font-size: 30px;
+    width: 200px;
+    border: transparent;
+    background-color: #2ECAF7;
+    /* font-size: x-large; */
+    color: white;
+}
+.grid{
+    color: white;
+    font-size: 40px;
+    padding: 0px 20px;
+}
+.dropdown{
+    /* position: absolute; */
+    /* top: 25px; */
+    /* left: 200px; */
+    font-size: 10px;
+    width: 40px;
+    background-color: white;
+}
+.searchBar{
+    height: 50px;
+    width: 1000px;
+    background-color:white;
+    border-radius: 10px;
+    border: 1px solid black;
+    /* border-bottom: 1px solid black; */
+}
+.search{
+    font-size: 38px;
+    color: red;
+}
+.searchBar input{
+    height: 45px;
+    width: 940px;
+    border: transparent;
+    font-size: 33px;
+    
+}
+
+.list2 ul{
+   
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.list2 ul li{
+    list-style: none;
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+
+}
+.card1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 45vh;
+    background-color: wheat;
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+}
+.C{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh;
+    width: 100%;
+    justify-content: center;
+}
+.card2{
+display: flex;
+width: 100%;
+justify-content: center;
+flex-wrap: wrap;
+height: 30vh;
+}
+.types{
+    background-color: black;
+    width: 700px;
+    height:50vh;
+    display: flex;
+justify-content: center;
+gap:30px;
+align-items: center;
+flex-wrap: wrap;
+}
+.type1{
+    background-color: yellow;
+    width: 300px;
+    height:300px
+}
+.type2{
+    background-color: red;
+    width: 300px;
+    height:300px
+}.type3{
+    background-color: orange;
+    width: 300px;
+    height:300px
+}
+.infinitybox{
+    /* flex-wrap: wrap; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    height: 40vh;
+    width: 30%;
+    background-color: white;
+}
+.learnerbox{
+    /* flex-wrap: wrap; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    height: 40vh;
+    width: 30%;
+    background-color: white;
+}
+.laptop{
+    
+    /* flex-wrap: wrap; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    height: 40vh;
+    width: 30%;
+    background-color: white;
+
+}
+.symbol{
+    height: 50px;
+    width: 70px;
+}
+.heading{
+    font-family: 'Open Sans',sans-serif!important;
+    font-size: 33px;
+}
+.desc{
+    font-family: 'Open Sans',sans-serif!important;
+    text-align: center;
+    font-size: 32px;
+}
+.btn button{
+    display: flex;
+    padding: 20px 30px;
+    font-size:34px;
+    color: white;
+    background-color: #2ECAF7;
+    border: 1px transparent;
+} 
+.btn button:hover{
+    background-color: red;
+}
+.card3{
+    height: 150vh;
+    width: 150%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:40px
+}
+.title{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* padding-left: 200px; */
+    font-weight: 1px;
+    color: rgba(0, 0, 0, 0.800);
+    font-size: 70px;
+    font-family: 'Open Sans',sans-serif!important;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.subcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    /* align-items: center; */
+    height:400px ;
+    width: 900px;
+    background-color: white;
+}
+
+.head{
+    padding-left: 50px;
+    font-family: 'Open Sans',sans-serif!important;
+    font-size: 44px;
+    padding: auto;
+    font-weight: bold;
+}
+.exp1{
+    padding-left: 20px;
+    font-size: 30px;
+    padding: auto;
+}
+.viewcourse{
+
+    margin-left: 50px;
+    height: 60px;
+    width: 250px;
+    font-size: 30px;
+    padding: 10px 20px;
+    color: skyblue;
+    background-color: white;
+    border: 1px solid skyblue;
+}
+.bton button{
+    display: flex;
+    padding: 20px 30px;
+    font-size:34px;
+    color: white;
+    background-color: #2ECAF7;
+    border: 1px transparent;
+    flex-wrap: wrap;
+}
+.bton button:hover{
+    background-color: red;
+}
+.card4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    background-color:whitesmoke;
+}
+.featured{
+    margin-top: 40px;
+    margin-left: 50px;
+    font-weight: 700px;
+    color: rgba(0, 0, 0, 0.800);
+    font-size: 50px;
+    font-family: 'Open Sans',sans-serif!important;
+}
+.coursesCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    /* height: 100vh; */
+}
+.course{
+    height: 75vh;
+    width: 20%;
+    background-color: white;
+}
+.cname{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.pname{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 32px;
+    font-weight: 100;
+}
+.price{
+    margin-top: 80px;
+    margin-left: 150px;
+    font-size: 32px;
+    font-weight: 500;
+}
+.card5{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.title1{
+    /* margin-left: 1000px; */
+    font-size: 50px;
+    margin-top: 50px;
+}
+.eventcard{
+    justify-content: space-evenly;
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70vh;
+    background-color: aliceblue;
+}
+.event{
+    display: flex;
+/* justify-content:space-between; */
+    align-items: center;
+    /* align-content: space-evenly; */
+    height: 25vh;
+    width: 45%;
+    background-color: white;
+}
+.exp{
+        font-size: 30px;
+}
+.date{
+    font-size: 34px;
+}
+.readmore{
+    color: blue;
+    font-size: 20px;
+}
+.card6{
+    justify-content: space-evenly;    
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 40vh;
+    width: 100%;
+    background-color: gainsboro;
+}
+.skills{
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    background-color:gainsboro;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.heading2{
+    font-size:40px;
+ margin-top: -250px;
+}
+.exp2{
+    font-size:25px;
+
+}
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 30vh;
+    width: 30%;
+    background-color: gainsboro;
+}
+.card7{
+    /* text-align: center;   */
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    height: 170vh;
+    width: 100%;
+    background-color: gainsboro;
+}
+.logos{
+    /* flex-wrap: wrap; */
+    margin-top: -100px;
+    justify-content: space-evenly;
+    background-color: gainsboro;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+}
+.explaination{
+    
+    flex-wrap: wrap;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    /* flex-direction: column;   */
+    align-items: center;
+    justify-content: space-evenly   ;
+}
+.p{
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 36px;
+}
+.card8{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 35vh;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30vh;
+    width: 40%;
+    background-color: white;
+}
+.he{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.card8 .box .bton{
+    padding-left: 350px;
+}
+.card9{
+    height: 1700px;
+    display: flex;
+    flex-wrap:wrap ;
+    width: 100%;
+    background-color: #a7e4f0!important;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    height: 1400px;
+    margin-top: 100px;
+    width: 100%;
+    background-color: #213033!important;
+}
+.addressbox{
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    width: 550px;
+    background-color: #213033!important;
+}
+.titlee{
+    display: flex;
+    margin-left:30px ;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: "open Sans",sans-serif;
+}
+.headoffice{
+    margin-left:30px ;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "open Sans",sans-serif;
+    color: white;
+}
+.address{
+    margin-left:30px ;
+    font-size: 30px;
+    font-family: "open Sans",sans-serif;
+    color: white
+}
+.contact-info{
+    margin-left:30px ;
+    color: white;
+    font-size: 28px;
+}
+.linkbox{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    background-color: #213033!important;
+    
+}
+.LIST{
+    display: flex;
+    /* height: 800px;
+    width: 700px; */
+    margin-top:30px ;
+}
+.LIST ul{
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: square;
+}
+.LIST ul li{
+    color: white;
+    font-size: 32px;
+    font-family: "open Sans",sans-serif;
+}
+.coursesbox{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    background-color: #213033!important;
+    
+}
+.languagebox{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    background-color: #213033!important;
+    
+}
+.titleee{
+    display: flex;
+    margin-left:30px ;
+    margin-top: 120px;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: "open Sans",sans-serif;
+}
+.navbar2{
+    height: 20vh;
+    width: 100%;
+    background-color: #213033;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.tit{
+    margin-left: 50px;
+    font-size: 40px;
+    color: white;
+    font-family: "open Sans",sans-serif;
+    font-weight: 500;
+}
+.LIST1{
+    display: flex;
+    margin-top:30px ;
+}
+.LIST1 ul{
+    margin-left: 60px;
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+.LIST1 ul li{
+    color: white;
+    font-size: 26px;
+    font-family: "open Sans",sans-serif;
+}
+.footer{
+    height: 12vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+

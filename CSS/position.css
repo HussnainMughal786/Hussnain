@@ -1,0 +1,56 @@
+
+*body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+/* .box{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+} */
+.cards{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.card1{
+    width:400px;
+    height:70vh;
+    background-color: brown;
+    margin: 0 auto;
+    border: 20px solid darkred;
+    border-radius: 10px;
+    position: absolute;    
+}
+.card-image{
+    height:20vh;
+    background-image: url("../Assets/kentucky\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.card-body{
+    height: 20vh;
+}
+.heading{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.btn{
+    background-color: red;
+    color: aliceblue;
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+    float: right;
+
+}

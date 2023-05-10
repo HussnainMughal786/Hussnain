@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card1{
+    height: 1100px;
+    width: 1350px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.card2{
+    position: absolute;
+    height: 1050px;
+    width: 1280px;
+    background-color: rgb(243, 214, 160);
+    border: 1px solid black;
+    top: 30px;
+    left: 30px;
+
+}
+.mahrronCard{
+    height: 160px;
+    width: 1276px;
+    background-color: brown;
+    position: relative;
+}
+.s1{
+    position: absolute;
+    height: 90px;
+    width: 110px;
+    background-color: darkkhaki;
+    top: 45px;
+    left: 1150px;
+    border-radius: 5px;
+}
+.s2{
+    position: absolute;
+    height: 90px;
+    width: 110px;
+    background-color: darkkhaki;
+    top: 45px;
+    left: 1030px;
+    border-radius: 5px;
+}
+.s3{
+    position: absolute;
+    height: 90px;
+    width: 110px;
+    background-color: darkkhaki;
+    top: 45px;
+    left: 910px;
+    border-radius: 5px;
+}
+.s4{
+    position: absolute;
+    height: 90px;
+    width: 110px;
+    background-color: darkkhaki;
+    top: 45px;
+    left: 790px;
+    border-radius: 5px;
+}
+.bar{
+    position: relative;
+    height: 60px;
+    width: 1276px;
+    background-color: rgb(44, 43, 43);
+    top: 150px;
+}
+.tags{
+    position: absolute;
+    color: white;
+    top: 20px;
+    left: 40px;
+}
+.bar1{
+    position: relative;
+    height: 60px;
+    width: 600px;
+    background-color: rgb(68, 68, 16);
+    /* top: 150px; */
+    left: 675px;
+}
+.subbar{
+    position:absolute;
+    height: 30px;
+    width: 250px;
+    background-color:  cyan;
+    top: 20px;
+    left: 325px;
+}
+.blackcard{
+    border-radius: 10px;
+    height: 300px;
+    width: 1200px;
+    background-color: black;
+    position: absolute;
+    top: 250px;
+    left: 40px;
+}
+.bluebar{
+    border-radius: 10px;
+    height: 80px;
+    width: 1200px;
+    background-color: blue;
+    position: absolute;
+    top: 290px;
+}
+.whitecard2{
+    border-radius: 10px;
+    height: 300px;
+    width: 320px;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    left: 730px;
+    z-index: 1;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+.whitecard1{
+    border-radius: 10px;
+    height: 290px;
+    width: 320px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 770px;
+    z-index: 1;
+
+}
+.orangebox1{
+    height: 50px;
+    width: 150px;
+    background-color: orange;
+    border-radius: 10px;
+    position: absolute;
+    top: 220px;
+    left: 40px;
+}
+.orangebox2{
+    height: 50px;
+    width: 150px;
+    background-color: orange;
+    border-radius: 10px;
+    position: absolute;
+    top: 220px;
+    left: 220px;
+}
+.pinkcard{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 400px;
+    width: 600px;
+    background-color: pink;
+    position: absolute;
+    top: 647px;
+}
+.cyan{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 80px;
+    width: 490px;
+    background-color: cyan;
+    position: absolute;
+    top: 320px;
+    left: 50px;
+}
+.card3{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 400px;
+    width: 675px;
+    background-color: white;
+    position: absolute;
+    top: 647px;
+    left:600px;
+}
+.lightblue{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 320px;
+    width: 590px;
+    background-color: cyan;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
+}
+.bar2{
+    position: relative;
+    height: 60px;
+    width: 588px;
+    background-color: rgb(44, 43, 43);
+    
+}

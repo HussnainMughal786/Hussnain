@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    margin: 0 auto;
+    /* border:1px solid black */
+}
+.card-image{
+    background-image: url(../Assets/Egg-McMufﬁnTM-2.png);
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border:1px solid black
+}
+.card-body{
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    background-color: skyblue;
+    top: 300px;
+    border-left: 5px solid yellow;
+}
+.description{
+    height: 50px;
+    width: 500px;
+    position: absolute;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+}
+.price{
+    height: 100px;
+    width: 250px;
+    font-size: 24px;
+    top: 150px; 
+    background-color: blanchedalmond;
+}

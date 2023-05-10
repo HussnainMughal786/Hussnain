@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.boxes{
+    display: flex;
+    height: 100vh;
+    border:1px solid black;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* diplay flex
+    display: flex;
+    /* justify content for spacing in x axis  */
+    /* justify-content: space-evenly; */
+    /* align-items:  for spacing in y axis */
+    /* align-items: center; */
+    /* gap is used for both axis  */
+    /* row-gap: 10px; */
+    /* column-gap: 10px; */
+    /* gap:10px; */
+    /* flex-wrap: wrap is used for responsiveness ; */
+     /* flex direction is used changing the row or coulumn by row-reverse or coulum reverse
+     flex direction in row it will bo on x axis and if coulumn
+      it will be on y axis it will opposite the proprties of justify content */
+}
+/* CHILD PROPERTOESS ORDER , flex,grow,shrink align self  flexgrow:2,3,4 will grow th size */
+.box1{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    border: 1px solid saddlebrown;
+
+}
+.image{
+    height: 50px;
+    width: 60px;
+}
+
+.box2{ 
+    
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    border: 1px solid saddlebrown;
+    
+}
+.box3{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    border: 1px solid saddlebrown;
+   
+}

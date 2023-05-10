@@ -1,0 +1,538 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Topbar{
+    position: relative;
+    height: 10vh;
+    width: 100%;
+    background-color: #213033;
+}
+.contact{
+    position: absolute;
+    height: 50px;
+    width: 580px;
+    background-color: #213033;
+    top: 20px;
+    left: 20px;
+}
+
+.icon1{
+    position: absolute;
+    color:rgb(59, 59, 240);
+    font-size: 25px;
+    top: 8px;
+}
+.icon2{
+    position: absolute;
+    color:rgb(59, 59, 240);
+    font-size: 25px;
+    top: 8px;
+    left: 190px;
+}
+.topMenu{
+    position: absolute;
+    height: 60px;
+    width: 76%;
+    background-color: #213033;
+    top: 17px;
+    left: 600px;
+}
+
+.yellow{
+    border-radius: 10px;
+    position: absolute;
+    height: 42px;
+    padding: 5px 10px;
+    width: 390px;
+    background-color: yellow;
+    top: 20px;
+    left: 2px;
+    border: 1px solid orange;
+}
+.login{
+    
+    color: black;
+    background-color: gainsboro;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+
+}
+.playNow{
+    color: white;
+    background-color: rgb(202, 46, 46);
+    height: 55px;
+    width: 150px;
+    border-radius: 10px;
+    /* padding: 20px; */
+}
+.desc{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 10px;
+    text-shadow: none;
+}
+.list{
+    position: absolute;
+    height: 50px;
+    color: white;
+    font-size: x-large;
+    padding: 10px 10px;
+    width: 79%;
+    background-color: #213033;
+    top: 2px;
+    left: 400px;
+}
+.logobar{
+    position: relative;
+    height: 15vh;
+    width: 100%;
+    background-color: white;
+    top: 2px;
+}
+.pnylogo{
+height: 150px;
+width: 180px;
+background-color: white;
+position: absolute;
+top: 20px;
+left:180px;
+/* background-image: url(../Assets/pnylogo.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; */
+}
+.img{
+    position: absolute;
+    height: 130px;
+    width: 160px;
+    background-color: white;
+    top: 20px;
+    left: 20px;
+}
+.categories{
+    position: absolute;
+    height: 60px;
+    width: 250px;
+    padding: auto;
+    background-color: #2ECAF7;
+    top: 50px;
+    left: 430px;
+}
+.c{
+    position: absolute;
+    top: 15px;
+    left: 45px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.dropdown{
+    position: absolute;
+    top: 25px;
+    left: 200px;
+    font-size: 10px;
+    width: 40px;
+    background-color: white;
+}
+.icon3{
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    display: inline block;
+    font-weight: 400px;
+}
+.searchbar{
+    background-color: white;
+    position: absolute;
+    height: 50px;
+    width: 950px;
+    top: 50px;
+    left:800px;
+    /* padding: 40px; */
+}
+.input{
+    position: absolute;
+    height: 50px;
+    width: 940px;
+    border-radius: 10px;
+    font-size: 33px;
+    padding: 10px;
+    border: 5px solid #2ECAF7;
+    
+}
+.Aboutus{
+    position: absolute;
+    font-size: 34px;
+    font-weight: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 58px;
+    left:1900px;
+}
+.Careers{
+    position: absolute;
+    font-size: 34px;
+    font-weight: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 58px;
+    left:2100px;
+}
+.blog{
+    position: absolute;
+    font-size: 34px;
+    font-weight: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 58px;
+    left:2300px;
+}
+.card1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.image{
+    width: 100%;
+    height: 50vh;
+}
+.infintyBox{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    height: 30vh;
+    width: 30%;
+    background-color: white;
+}
+.infinitySymbol{
+    position: relative;
+    top:25px;
+    left: 300px;
+    height: 5%;
+    width: 7vh;
+}
+.heading1{
+    position: relative;
+    font-family: 'Open Sans',sans-serif!important;
+    top:75px;
+    left: 220px;
+    font-size: 33px;
+}
+.desc1{
+    position: relative;
+    font-family: 'Open Sans',sans-serif!important;
+    top:125px;
+    left: 10px;
+    text-align: center;
+    font-size: 32px;
+}
+.learnerBox{
+    position: absolute;
+    top: 657px;
+    left: 900px;
+    height: 30vh;
+    width: 30%;
+    background-color: white;
+}
+.learnSymbol{
+    position: relative;
+    top:20px;
+    left: 300px;
+    height: 4%;
+    width: 5vh;
+}
+.heading2{
+    position: relative;
+    font-family: 'Open Sans',sans-serif!important;
+    top:60px;
+    left: 210px;
+    font-size: 33px;
+}
+
+.desc2{
+    position: relative;
+    font-family: 'Open Sans',sans-serif!important;
+    top:105px;
+    left: 5pxpx;
+    text-align: center;
+    font-size: 32px;
+}
+.laptop{
+    position: absolute;
+    top: 657px;
+    left: 1790px;
+    height: 30vh;
+    width: 30%;
+    background-color: white;
+}
+.laptopSymbol{
+    position: relative;
+    top:20px;
+    left: 340px;
+    height: 5%;
+    width: 7vh;
+}
+.heading3{
+    position: relative;
+    font-family: 'Open Sans',sans-serif!important;
+    top:60px;
+    text-align: center;
+    /* left: 210px; */
+    font-size: 33px;
+}
+
+.desc3{
+    position: relative;
+    font-family: 'Open Sans',sans-serif!important;
+    top:105px;
+    left: 5px;
+    text-align: center;
+    font-size: 32px;
+}
+.trialbox{
+    position: relative;
+    top: 60px;
+    padding: 20px 100px;
+    background-color: #2ECAF7;
+    color: azure;
+    font-size: 30px;
+    border: 1px transparent;
+    left:1050px;
+}
+.trialbox:hover{
+    background-color: red;
+}
+.card2{
+    position: relative;
+    width: 100%;
+    height: 105vh;
+    background-color: lightblue;
+}
+.header{
+    position: absolute;
+    padding: 40px 60px;
+    font-weight: 1px;
+    color: rgba(0, 0, 0, 0.800);
+    font-size: 80px;
+    border: 1px transparent;
+    left:1000px;
+    font-family: 'Open Sans',sans-serif!important;
+}
+.subcard1{
+    position: absolute;
+    height: 35vh;
+    width: 30%;
+    background-color: white;
+    top: 200px;
+    left: 50px;
+}
+.head{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    font-family: 'Open Sans',sans-serif!important;
+    font-size: 44px;
+    padding: auto;
+    font-weight: bold;
+}
+.exp1{
+
+    position: absolute;
+    left: 60px;
+    font-size: 30px;
+    top: 170px;
+    padding: auto;
+}
+.viewcourse{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    font-size: 30px;
+    padding: 10px 20px;
+    color: skyblue;
+    background-color: white;
+    border: 1px solid skyblue;
+}
+.subcard2{
+    position: absolute;
+    height: 35vh;
+    width: 30%;
+    background-color: white;
+    top: 200px;
+    left: 900px;
+}
+
+.subcard3{
+    position: absolute;
+    height: 35vh;
+    width: 30%;
+    background-color: white;
+    top: 200px;
+    left: 1750px;
+}
+.subcard4{
+    position: absolute;
+    height: 35vh;
+    width: 30%;
+    background-color: white;
+    top: 700px;
+    left: 50px;
+}
+.subcard5{
+    position: absolute;
+    height: 35vh;
+    width: 30%;
+    background-color: white;
+    top: 700px;
+    left: 900px;
+}
+.subcard6{
+    position: absolute;
+    height: 35vh;
+    width: 30%;
+    background-color: white;
+    top: 700px;
+    left: 1750px;
+}
+.viewbroeser{
+    position: absolute;
+    top: 1200px;
+    left: 1150px;
+    font-size: 30px;
+    padding: 10px 20px;
+    color: white;
+    background-color:rgb(31, 134, 175);
+    border: 1px solid transparent;
+}
+.viewbroeser:hover{
+    background-color: red;
+}
+.card3{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-color:whitesmoke;
+}
+.FeaturedCourse{
+    position: absolute;
+    padding: 40px 60px;
+    font-weight: 700px;
+    color: rgba(0, 0, 0, 0.800);
+    font-size: 50px;
+    border: 1px transparent;
+    left:110px;
+    font-family: 'Open Sans',sans-serif!important;
+}
+.course1{
+    position: absolute;
+    height: 68vh;
+    width: 18%;
+    background-color: white;
+    top: 180px;
+    left: 300px;
+}
+.fullstack{
+    position: absolute;
+    height: 500px;
+    width: 463px;
+    background-image: url(../Assets/fullstack.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.coursename{
+    font-size: 34px;
+    font-weight: 400;
+    padding: auto;
+    top:520px;
+    left: 20px;
+    position: absolute;
+}
+.name{
+    font-size: 24px;
+    font-weight: 100;
+    padding: auto;
+    top:720px;
+    left: 30px;
+    position: absolute;
+}
+.RS{
+    font-size: 28px;
+    font-weight: 500;
+    padding: auto;
+    top:780px;
+    left: 150px;
+    position: absolute;
+}
+
+.course2{
+    position: absolute;
+    height: 68vh;
+    width: 18%;
+    background-color: white;
+    top: 180px;
+    left: 810px;
+}
+.Digital{
+    position: absolute;
+    height: 500px;
+    width: 463px;
+    background-image: url(../Assets/certifieddigitalmarketingmedia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.course3{
+    position: absolute;
+    height: 68vh;
+    width: 18%;
+    background-color: white;
+    top: 180px;
+    left: 1320px;
+}
+.Social{
+    position: absolute;
+    height: 500px;
+    width: 463px;
+    background-image: url(../Assets/socialmedia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.course4{
+    position: absolute;
+    height: 68vh;
+    width: 18%;
+    background-color: white;
+    top: 180px;
+    left: 1830px;
+}
+.Ecommerce{
+    position: absolute;
+    height: 500px;
+    width: 463px;
+    background-image: url(../Assets/ecommerce.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card4{
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    background-color: aquamarine;
+}
+.title{
+    position: absolute;
+    padding: auto;
+    top: 100px;
+    left:1100px;
+    font-size: 50px;
+    font-weight: 950px;
+}
+
+
+
+

@@ -1,0 +1,41 @@
+/* 
+.title1{
+    text-align: center;
+    color: blueviolet;
+    background-color: aqua;
+    font-family: 'Delicious Handrawn', cursive;
+    /* override font */
+    /* font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    googlefonts fonts library */
+
+/* .title2{
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Delicious Handrawn',cursive;
+
+} 
+ */
+/* to set page from 0 margins */
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+ body{
+    background-color: blue;
+ }
+  /* margin is used to move the box 
+     margin tuble: top,right,bottom,left */
+    /* margin: top bottom,left right 0px,auto */
+    /* padding used to move content inside th box
+        padding arguments same like margin
+
+    */
+ .box{
+    background-color: black;
+    height: 300px;
+    width: 200px;
+    margin: 30,30,30,30;  
+
+ }

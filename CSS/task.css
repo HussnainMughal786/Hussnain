@@ -1,0 +1,152 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: 0px;
+   
+}
+.card{
+     background-color: black;
+     height: 800px;
+     width: 1000px;
+     margin: 0 auto;
+     position: relative;
+}
+.background{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: gray;
+    border:transparent;
+    border-bottom-right-radius: 500px;
+    position: absolute;
+    top:200px;
+}
+.image{
+    height: 300px;
+    width: 300px;
+    background-image: url(../Assets/taskp.jpg);
+    background-image: no-repeat;
+    background-image: cover;
+    background-position: center;
+    position: relative;
+    top:200px;
+    left:100px;
+    position: absolute;
+}
+.box{
+    background-color: black;
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    top:200px;
+    left:410px;
+}
+.btn{
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.button{
+    background-color: red;
+    padding: 7px 45px;
+    /* height: 20px; */
+    width: 180px;
+    position: absolute;
+    top: 90px;
+    left:200px;
+    border-radius: 10px;
+    /* padding: 20px 110px; */
+}
+.dealBar{
+    width:980px;
+    height:50px;
+    background-color: gainsboro;
+    position: relative;
+    top: 125px;
+    padding: 10px;
+}
+.deal1{
+    background-color: red;
+    padding: 15px 40px;
+    height: 15px;
+    width: 180px;
+    position: absolute;
+    left:30px;
+    border-radius: 10px;
+}
+.deal1:hover{
+    background-color: gray;
+}
+.deal2{
+    background-color: red;
+    padding: 15px 40px;
+    height: 15px;
+    width: 80px;
+    position: absolute;
+    left:350px;
+    border-radius: 10px;
+}
+.deal3{
+    background-color: red;
+    padding: 15px 40px;
+    height: 15px;
+    width: 80px;
+    position: absolute;
+    left:550px;
+    border-radius: 10px;
+}
+.deal4{
+    background-color: red;
+    padding: 15px 40px;
+    height: 15px;
+    width: 150px;
+    position: absolute;
+    left:750px;
+    border-radius: 10px;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    background-image: url(../Assets/kfc\ logo.svg);
+    background-image: cover;
+    background-position: center;
+    position: absolute;
+    top:20px;
+}
+.Register{
+    background-color: red;
+    padding: 15px 40px;
+    height: 15px;
+    width: 150px;
+    position: absolute;
+    top:30px;
+    left:750px;
+    color: antiquewhite;
+    border-radius: 10px;
+}
+.del{
+    background-color: rgb(29, 28, 28);
+    height: 30px;
+    width: 120px;
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    padding: 12px 60px;
+    border-radius: 20px;
+}
+.loc{
+    background-color: rgb(29, 28, 28);
+    height: 30px;
+    width: 180px;
+    position: absolute;
+    top: 30px;
+    left: 430px;
+    padding: 10px 60px;
+    border-radius: 20px;
+}
+
+.style{
+    color: antiquewhite;
+    font-size: large;
+
+}
