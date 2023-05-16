@@ -38,6 +38,11 @@ box-sizing: border-box;
     width: 40%;
 
 }
+.gradient{
+    background-color: #9b00fb;
+    background-image: linear-gradient(to right,#262270, #9b00fb);
+
+}
 .title{
     font-weight: 750;
     background-color: aliceblue;
@@ -62,6 +67,7 @@ box-sizing: border-box;
 }
 .btn button{
     background-color:  #9b00fb;
+    background-image: linear-gradient(to right,#030218, #9b00fb);
     height: 60px;
     width: 300px;
     font-size: 20px;
@@ -74,6 +80,7 @@ box-sizing: border-box;
     border-top: transparent;
 }
 .btn button :hover{
+    
 
 }
 .box{
@@ -121,6 +128,7 @@ box-sizing: border-box;
 }
 .subcard2{
     background-color: #9b00fb;
+    background-image: linear-gradient(to right,#030218, #9b00fb);
     margin-left: 10px;
     margin-top: 10px;
     border-radius: 30px 30px;
@@ -158,6 +166,8 @@ box-sizing: border-box;
 .bton button{
     margin-top: 35px;
     background-color:  #9b00fb;
+    background-image: linear-gradient(to right,#030218, #9b00fb);
+
     height: 60px;
     width: 300px;
     font-size: 20px;
@@ -228,6 +238,12 @@ box-sizing: border-box;
     width: 300px;
     background-color: white;
 }
+.scard2{
+    height: 250px;
+    width: 300px;
+    background-color: #9b00fb;
+    background-image: linear-gradient(to right,#030218, #9b00fb);
+}
 .sty{
     font-family: open sans, serif;
     font-weight: 800;
@@ -256,6 +272,7 @@ box-sizing: border-box;
 }
 .bt button{
     background-color:  #9b00fb;
+    background-image: linear-gradient(to right,#030218, #9b00fb);
     height: 30px;
     width: 100px;
     font-size: 12px;
