@@ -4,5 +4,13 @@
     background-color: black;
 }
 .img{
+    height: 300px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
     background-image: url(../Assets/rimg1.jpg);
+}
+.month{
+    text-align: center;
+    
 }

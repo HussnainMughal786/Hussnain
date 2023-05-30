@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.top-bar{
+    width: 100%;
+    height: 30px;
+    background-color: hsl(273, 34%, 73%);
+    line-height: 30px;
+}
+.list{
+    list-style: none;
+    line-height: 50px;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0px;
+}
+.f{
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right:40px;
+    
+}
+.animation{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.animation img{
+    height: 500px;
+
+    
+}
+.slider_image{
+    margin-top: 100px;
+}

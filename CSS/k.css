@@ -1,0 +1,88 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+} 
+.top-bar{
+    width: 100%;
+    height: 30px;
+    background-color: hsl(273, 34%, 73%);
+    line-height: 30px;
+}
+.list{
+    list-style: none;
+    line-height: 50px;
+} 
+ .icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0px;
+}
+.fimg img{
+    height: 300px;
+    width: 300px;
+}
+.b1{
+    background-image: url(../Assets/fabric1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: end;
+    
+}
+.b1:hover{
+    background-image:url(../Assets/b1.webp) ;
+}
+.b2{
+    background-image: url(../Assets/f2.webp);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: end;
+}
+.b2:hover{
+    background-image:url(../Assets/b2.webp) ;
+}
+.b3{
+    background-image: url(../Assets/fabric3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: end;
+}
+.b3:hover{
+    background-image:url(../Assets/b4.webp) ;
+}
+.b4{
+    background-image: url(../Assets/fabric4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: end;
+}
+.b4:hover{
+    background-image:url(../Assets/b3.webp) ;
+}
+.btn button{
+    width:285px;
+    /* margin-bottom: -100px; */
+    
+}
+.btn button:hover{
+    background-color: gray;
+}
+.r1{
+    background-color: aquamarine;
+    height: 500px;
+    width: 1000px;
+}
