@@ -1,4 +1,4 @@
-.name{
+/* .name{
     height: 200px;
     color: white;
     background-color: black;
@@ -13,4 +13,28 @@
 .month{
     text-align: center;
     
+} */
+
+
+.container-card{
+    margin:  0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+
+}
+.card{
+    background-color: gray;
+    height: 550px;
+    width: 400px;
+    text-align: center;
+    transition: all 1s ease-in-out ;
+
+}
+.card:hover{
+    transform: scale(1.1);
+
 }

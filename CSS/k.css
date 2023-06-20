@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* overflow-x: hidden; */
+    /* overflow-x: hidden;  */
 } 
 .top-bar{
     width: 100%;
@@ -81,8 +81,77 @@
 .btn button:hover{
     background-color: gray;
 }
-.r1{
-    background-color: aquamarine;
-    height: 500px;
-    width: 1000px;
+.b5{
+    background-image: url(../Assets/f5.webp);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: end;
+}
+.b5:hover{
+    background-image:url(../Assets/b5.webp) ;
+}
+.b6{
+    background-image: url(../Assets/f7.webp);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: end;
+}
+.b6:hover{
+    background-image:url(../Assets/b7.webp) ;
+}
+.b7{
+    background-image: url(../Assets/f8.webp);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: end;
+}
+.b7:hover{
+    background-image:url(../Assets/b8.webp) ;
+}
+.b8{
+    background-image: url(../Assets/f6.webp);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: end;
+}
+.b8:hover{
+    background-image:url(../Assets/b6.webp) ;
+}
+
+
+
+
+
+@media only screen and (max-width :760px){
+
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .top{
+        font-size: 10PX;
+        
+    }
+    
+    .L{
+        display: none;
+        /* background-color: aqua; */
+    }
+    .icon{
+        display: none;
+    }
 }
